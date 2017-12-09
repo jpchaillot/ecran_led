@@ -1,3 +1,26 @@
+le petit ajout par rapport a la librairie de hzeller.
+
+l ajout du dossier autorun qui permet de creer un script executable automatiquement
+
+
+Rendre le fichier autorun.sh executable avec la commande chmod +x /autorun/autorun.sh
+
+il faut prealablement modifier le fichier /etc/rc.local  avec la commande
+sudo nano /etc/rc.local
+
+lui donner l'adresse de la librairie rpi-rgb.../autorun/autorun.sh
+
+
+
+ne pas oublier il faut mettre les images en format ppm pour cela il faut utiliser le fichier convert
+convert ancien_fichier.png nouveau_fichier.ppm
+puis placer les fichier autorun/
+
+
+
+
+
+
 Controlling RGB LED display with Raspberry Pi GPIO
 ==================================================
 
