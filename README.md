@@ -8,6 +8,12 @@ Rendre le fichier autorun.sh executable avec la commande chmod +x /autorun/autor
 il faut prealablement modifier le fichier /etc/rc.local  avec la commande
 sudo nano /etc/rc.local
 
+il faut installer ligraphicsmagick
+sudo apt-get install libgraphicsmagick++-dev libwebp-dev -y
+
+il faut aussi installer imagemagick
+
+
 lui donner l'adresse de la librairie rpi-rgb.../autorun/autorun.sh
 
 
